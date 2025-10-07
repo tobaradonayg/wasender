@@ -34,14 +34,14 @@ function setFormMode(mode, index = -1) {
     if (mode === 'edit' && index !== -1) {
         title.textContent = `1. Editando Cliente: ${contacts[index].firstName} ${contacts[index].lastName}`;
         button.textContent = 'Guardar Cambios';
-        button.classList.remove('bg-wa-green');
+        button.classList.remove('bg-green-500');
         button.classList.add('bg-blue-600');
         cancelButton.classList.remove('hidden');
     } else { // Modo 'add' o cancelar edición
         title.textContent = '1. Agregar Nuevo Cliente';
         button.textContent = 'Guardar Cliente';
         button.classList.remove('bg-blue-600');
-        button.classList.add('bg-wa-green');
+        button.classList.add('bg-green-500');
         cancelButton.classList.add('hidden');
         // Limpiar inputs
         document.getElementById('inputFirstName').value = '';
