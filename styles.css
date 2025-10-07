@@ -1,0 +1,23 @@
+/* Configuración de Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Configuración de colores personalizados de WhatsApp */
+:root {
+    --wa-green: #25D366;
+    --wa-dark-green: #128C7E;
+}
+
+/* Estilos personalizados */
+#log {
+    white-space: pre-wrap; /* Mantiene saltos de línea y espacios en el log */
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.contact-item:nth-child(even) {
+    background-color: #f7f7f7;
+}
