@@ -304,7 +304,7 @@ function renderFilteredContacts(filteredContacts) {
             <div class="flex space-x-2 flex-shrink-0">
                 <!-- Usamos el teléfono para la acción de envío -->
                 <button onclick="sendSingleContactByPhone('${phoneForAction}')" 
-                        class="text-xs font-semibold px-2 py-1 rounded-lg bg-wa-green text-white hover:bg-wa-dark-green transition">
+                        class="text-xs font-semibold px-2 py-1 rounded-lg bg-green-500 text-white hover:bg-wa-dark-green transition">
                     Enviar
                 </button>
                 <!-- Usamos el teléfono para iniciar la edición -->
